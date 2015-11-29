@@ -1,0 +1,41 @@
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+end_of_line = lf
+insert_final_newline = true
+draw_white_space = all
+trim_trailing_whitespace = true
+trim_trailing_white_space_on_save = true
+
+[*.{css,js,json,sass,scss,yml}]
+indent_size = 2
+
+[*.php]
+indent_size = 4
+quote_type = single
+
+[*.js]
+quote_type = single
+
+[*.{json,yml}]
+quote_type = double
+
+[*.xml]
+indent_size = 4
+quote_type = double
+
+[*.{css,less,jade,js,json,php,py,sass,scss,styl,yml}]
+curly_bracket_next_line = false
+spaces_around_operators = true
+spaces_around_brackets = false
+indent_brace_style = "K&R"
+
+[.htaccess]
+indent_size = 4
+quote_type = double
+
+[*.md]
+trim_trailing_whitespace = false
+trim_trailing_white_space_on_save = false

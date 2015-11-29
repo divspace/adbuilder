@@ -1,0 +1,21 @@
+{
+  "name": "ad-builder",
+  "version": "1.0.0",
+  "private": true,
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~4.0.0",
+    "hack": "~1.0.0",
+    "jquery": "~2.1.4",
+    "source-sans-pro": "~1.0.0"
+  }
+}

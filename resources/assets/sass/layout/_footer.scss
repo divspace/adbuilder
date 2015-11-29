@@ -1,0 +1,16 @@
+footer {
+  color: $gray-light;
+  padding-top: (1rem / 2);
+  margin-top: $spacer-y;
+  margin-bottom: $spacer-y;
+  border: 0;
+  border-top: $hr-border-width solid $hr-border-color;
+
+  a {
+    color: $gray;
+
+    &:hover {
+      color: $gray-dark;
+    }
+  }
+}

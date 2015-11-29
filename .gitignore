@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.phpintel
+/bootstrap/compiled.php
+/bower_components
+/node_modules
+/public/assets
+/storage
+/tests
+/vendor
+composer.lock
